@@ -160,3 +160,16 @@ Vậy tổng sản lượng cần thiết mỗi ngành phải sản xuất là:
     - Lúa gạo khoảng 384,67 đơn vị.
     - Dệt may khoảng 389,78 đơn vị.
     - Thép khoảng 359,12 đơn vị.
+
+## Mô hình cân bằng cục bộ cho các thị trường
+# Mô tả bài toán:
+Bài toán này nghiên cứu trạng thái cân bằng về giá và sản lượng của hai thị
+trường riêng biệt nhưng có sự tác động qua lại lẫn nhau. Do mối liên hệ giữa
+các yếu tố cung và cầu của hai thị trường, các đại lượng không còn độc lập mà
+phụ thuộc lẫn nhau thông qua các điều kiện ràng buộc, từ đó hình thành một hệ
+phương trình đại số phi tuyến.
+
+Việc xây dựng và giải hệ phương trình này cho phép xác định mức giá và sản
+lượng cân bằng của từng thị trường. Đây là trạng thái mà tại đó lượng cung và
+lượng cầu ở cả hai thị trường đều bằng nhau, đồng thời phản ánh sự ổn định của
+toàn bộ hệ thống kinh tế đang xét.
