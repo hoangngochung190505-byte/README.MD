@@ -16,7 +16,7 @@ mô hình toán học dưới dạng hệ phương trình, ta có thể phân t�
 tìm ra lời giải phù hợp cho bài toán đặt ra. Điều đó cho thấy tính ứng dụng rộng
 rãi cũng như hiệu quả của tư duy toán học trong thực tế.
 
-Nội dung chương này tập trung trình bày một số ứng dụng tiêu biểu của hệ
+Nội dung đề tài này tập trung trình bày một số ứng dụng tiêu biểu của hệ
 phương trình đại số thông qua các bài toán thực tiễn và mô hình toán học quen
 thuộc. Qua đó, làm nổi bật vai trò của hệ phương trình trong việc ứng dụng toán
 học vào đời sống, đồng thời thấy được giá trị và ý nghĩa thực tiễn mà chúng
