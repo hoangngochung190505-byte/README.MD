@@ -2,7 +2,7 @@
 
 ## Giới thiệu
 *Đây là một dư án về toán học được thực hiện bởi Hoàng Ngọc Hùng*
- ## ỨNG DỤNG CỦA HỆ PHƯƠNG TRÌNH ĐẠI SỐ
+ ## ỨNG DỤNG CỦA HỆ PHƯƠNG TRÌNH ĐẠI SỐ TRONG GIẢI CÁC BÀI TOÁN THỰC TẾ
 Trong toán học, hệ phương trình đại số là một công cụ quan trọng giúp mô tả
 và làm rõ mối quan hệ giữa các đại lượng trong nhiều bài toán khác nhau. Việc
 xây dựng và giải hệ phương trình không chỉ là một kĩ năng cơ bản của toán học
