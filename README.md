@@ -294,3 +294,14 @@ Vậy hai thị trường đạt cân bằng khi:
 
 - **Giá sữa tươi:** khoảng $152,31$ nghìn đồng/lít.
 - **Giá bánh mì:** khoảng $55,38$ nghìn đồng/ổ.
+
+
+# Bài toán: Phân bổ nguồn lực trong sản xuất
+
+## Mô tả bài toán
+
+Bài toán phân bổ nguồn lực trong sản xuất là bài toán xác định số lượng sản phẩm cần sản xuất sao cho việc sử dụng các nguồn lực của doanh nghiệp đạt hiệu quả cao nhất. Trong thực tế, các nguồn lực như nguyên vật liệu, nhân công, thời gian lao động hay công suất máy móc đều có giới hạn nhất định, vì vậy doanh nghiệp cần xây dựng kế hoạch sản xuất phù hợp để tránh lãng phí và đảm bảo hiệu quả hoạt động.
+
+Mỗi loại sản phẩm thường tiêu tốn một lượng tài nguyên khác nhau cho từng công đoạn sản xuất. Từ đó, các mối quan hệ giữa số lượng sản phẩm và lượng nguồn lực sử dụng có thể được mô hình hóa bằng các hệ phương trình hoặc bất phương trình đại số. Việc giải các hệ này giúp xác định phương án sản xuất phù hợp, đồng thời hỗ trợ doanh nghiệp trong việc tối ưu hóa lợi nhuận hoặc khai thác tối đa công suất hiện có.
+
+## Bài toán
