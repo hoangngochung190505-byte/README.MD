@@ -173,3 +173,124 @@ Việc xây dựng và giải hệ phương trình này cho phép xác định m
 lượng cân bằng của từng thị trường. Đây là trạng thái mà tại đó lượng cung và
 lượng cầu ở cả hai thị trường đều bằng nhau, đồng thời phản ánh sự ổn định của
 toàn bộ hệ thống kinh tế đang xét.
+
+## Bài toán
+
+Trong một nền kinh tế nhỏ có hai loại hàng hóa liên quan mật thiết với nhau là: **Sữa tươi (A)** và **bánh mì (B)**.
+
+Với các thị trường (bao gồm giá (đơn vị: nghìn VNĐ), hàm cung, hàm cầu) và giả sử việc sản xuất sữa và bánh mì có mối quan hệ với nhau như sau:
+
+### Thị trường Sữa tươi (A)
+
+- Giá sữa tươi $(P_A)$: đơn vị nghìn đồng/lít.
+
+- Hàm cầu sữa tươi:
+
+$$
+Q_A^D=200-P_A
+$$
+
+- Hàm cung sữa tươi:
+
+$$
+Q_A^S=20+2P_A-5P_B
+$$
+
+### Thị trường Bánh mì (B)
+
+- Giá bánh mì $(P_B)$: đơn vị nghìn đồng/ổ.
+
+- Hàm cầu bánh mì:
+
+$$
+Q_B^D=120-2P_B+0,5P_A
+$$
+
+- Hàm cung bánh mì:
+
+$$
+Q_B^S=30+P_B
+$$
+
+**Yêu cầu:** Tìm giá của sữa tươi và bánh mì để cả hai thị trường đạt trạng thái cân bằng (lượng cung bằng lượng cầu).
+
+## Lời giải
+
+Do giả thiết đã gọi tất cả các giá trị cần tìm nên ta không cần gọi lại lần nữa. Ta chỉ quan tâm đến các điều kiện là:
+
+$$
+P_A>0,\quad P_B>0
+$$
+
+Yêu cầu bài toán là cần xác định giá sữa tươi $(P_A)$ và giá bánh mì $(P_B)$ sao cho thị trường sữa tươi và bánh mì đạt trạng thái cân bằng, khi đó lượng cung và lượng cầu của chúng phải bằng nhau tức là:
+
+$$
+\begin{cases}
+Q_A^S=Q_A^D\\
+Q_B^S=Q_B^D
+\end{cases}
+$$
+
+$$
+\Leftrightarrow
+\begin{cases}
+20+2P_A-5P_B=200-P_A\\
+30+P_B=120-2P_B+0,5P_A
+\end{cases}
+$$
+
+$$
+\Leftrightarrow
+\begin{cases}
+3P_A-5P_B=180\\
+0,5P_A-3P_B=-90
+\end{cases}
+$$
+
+Nhân phương trình thứ hai với $2$, ta được:
+
+$$
+\begin{cases}
+3P_A-5P_B=180\\
+P_A-6P_B=-180
+\end{cases}
+$$
+
+Từ phương trình thứ hai:
+
+$$
+P_A=6P_B-180
+$$
+
+Thế vào phương trình thứ nhất:
+
+$$
+3(6P_B-180)-5P_B=180
+$$
+
+$$
+18P_B-540-5P_B=180
+$$
+
+$$
+13P_B=720
+$$
+
+$$
+P_B=\frac{720}{13}\approx55,38
+$$
+
+Suy ra:
+
+$$
+P_A=6\cdot\frac{720}{13}-180
+$$
+
+$$
+P_A=\frac{1980}{13}\approx152,31
+$$
+
+Vậy hai thị trường đạt cân bằng khi:
+
+- **Giá sữa tươi:** khoảng $152,31$ nghìn đồng/lít.
+- **Giá bánh mì:** khoảng $55,38$ nghìn đồng/ổ.
